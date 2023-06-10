@@ -1,0 +1,37 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+
+}
+.login>div{
+    border-top: 3px solid black;
+    width: 25%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+}
+@media (max-width:480px){
+    .login>div{  
+        width: 90%;
+    }
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submit-section{
+    display: flex;
+    flex-direction: column;
+}
+.submit-section>span{
+    font-size: .9rem;
+    font-weight: 300;
+}
+.anchor{
+  font-weight: 500;
+}

@@ -1,0 +1,21 @@
+.RecentlyAdded{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.RecentlyAdded>span{
+    align-self: center;
+    margin-bottom: 2rem;
+}
+.product-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+@media (max-width:480px) {
+    .product-wrapper{
+        gap: .5rem;
+    }
+}

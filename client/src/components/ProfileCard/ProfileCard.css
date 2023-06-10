@@ -1,0 +1,41 @@
+.ProfileCard{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    width: 300px;
+    border-radius:10px ;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+}
+
+.ProfileCard>i{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.ProfileCard>div:nth-of-type(1){
+    width: 30%;
+    
+}
+.ProfileCard>div:nth-of-type(1)>img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+.ProfileCard>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+.ProfileCard>div:nth-of-type(2)>span:nth-of-type(2){
+    font-weight: 300;
+    font-size: small;
+    
+}
+.ProfileCard>div:nth-of-type(2)>span:nth-of-type(3){
+    font-weight: 300;
+    font-size: small;
+    
+}
+.ProfileCard>div:nth-of-type(2)>span>i{
+    margin-right: .5rem;
+}

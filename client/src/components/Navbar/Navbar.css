@@ -1,0 +1,138 @@
+:root{
+    --fc:#f8f9fa;
+    --sc:#e9ecef;
+    --tc:#dee2e6;
+    --4c:#ced4da;
+    --5c:#adb5bd;
+    --6c:#6c757d;
+    --7c:#495057;
+    --8c:#343a40;
+    --9c:#212529;
+    --white:#ffffff;
+    --black:#000000;
+    --slight-blue:#14213d;
+    --slight-grey:#e5e5e5;
+    --yellow:#fca311;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:500px){
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+@media (max-width:500px){
+    nav{
+        width: 94%;
+        justify-content: space-between;
+    }
+}
+
+#main-logo{
+    width: 5%;
+}
+#main-logo>i{
+    display: none;
+}
+#main-logo>img{
+    width: 100%;
+}
+@media (max-width:500px){
+    #main-logo{
+        width: 15%;
+        display: flex;
+        align-items: center;
+    }
+    #main-logo>i{
+        display: inline;
+    }
+}
+#nav{
+    display: flex;
+    margin-left: 4rem;
+    gap: 3rem;
+    width: 70%;
+}
+#nav>input{
+    border: none;
+    background-color: #e9ecef;
+    width: 20rem;
+    border-radius: .2rem;
+    margin-right: 8rem;
+    padding:.3rem .6rem;
+    color: var(--slight-blue);
+    outline:none;
+    border: var(--slight-grey) 1px solid;
+}
+#nav>a{
+    text-decoration: none;
+    color: #14213d;
+}
+#nav>i{
+    display: none;
+}
+@media (max-width:500px){
+    #nav{
+        display:flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: absolute;
+        z-index: 2;
+        top: 0%;
+        left: -1000%;
+        width: 250px;
+        height: 100vh;
+        padding: 10px;
+        margin: 0;
+        background-color: white;
+        shape-outside: var(--black);
+        transition: all 0.3s;
+    }
+    #nav>i{
+        display: inline;
+    }
+    #nav>input{
+        width: 80%;
+    }
+}
+nav>div:nth-of-type(3){
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    width: 20%;
+    color: #14213d;
+}
+nav>div:nth-of-type(3)>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 1rem;
+}
+nav>div:nth-of-type(3)>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    position:absolute;
+    font-weight: 700;
+    top:0%;
+    right:-50%;
+    background-color: white;
+    font-size: .5rem;
+    border-radius: 10px;
+    padding: .02rem .04rem;
+}
+nav>div:nth-of-type(3)>i:hover{
+    color: black;
+}
+nav>i{
+    color: var(--slight-blue);
+}

@@ -1,0 +1,38 @@
+.CheckoutNavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    overflow-x: hidden;
+}
+.CheckoutNavbar>div:nth-of-type(1){
+    width: 5%;
+
+}
+.CheckoutNavbar>div:nth-of-type(1)>a>img{
+    width: 100%;
+    
+}
+@media (max-width:500px){
+    .CheckoutNavbar{
+        padding-left:0 ;
+        padding-right: 0;
+    }
+    .CheckoutNavbar>div:nth-of-type(1){
+        width: 15%;
+
+    
+    }
+}
+
+.CheckoutNavbar>div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+@media (max-width:500px){
+    .CheckoutNavbar>div:nth-of-type(2){
+        display: none;
+    }
+}

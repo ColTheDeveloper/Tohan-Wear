@@ -1,0 +1,43 @@
+*,*::after,*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  font-family: 'Poppins', sans-serif;
+  /* background-color:#f8f9fa; */
+  background-color:#dee0e4;
+  height: 100vh;
+}
+.btn{
+  color: white;
+  background-color: black;
+  padding: .3rem .3rem;
+  border-radius: 4px;
+  transition: transform .2s;
+  border: none;
+}
+.btn:hover{
+  transform: scale(.96);
+}
+span{
+  cursor: default;
+}
+.inputForm{
+  padding: .5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.inputForm:focus{
+  border: 1px solid black;
+  outline: none;
+
+}
+@media (max-width:480px){
+  .popup-content{
+    width: 90% !important;
+  }
+  [role="tooltip"].popup-content{
+    width: 50% !important;
+  }
+}

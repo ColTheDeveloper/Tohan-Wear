@@ -1,0 +1,10 @@
+.menu{
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+.answer{
+    display: flex;
+    justify-content: space-around;
+}

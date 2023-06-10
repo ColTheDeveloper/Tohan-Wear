@@ -1,0 +1,26 @@
+.OrderHistory>span:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+}
+.OrderHistory>table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    
+}
+.OrderHistory>table>tbody>tr>td,.OrderHistory>table>thead>th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.OrderHistory>table>tbody>tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.OrderHistory>table>tbody>tr:hover{
+    background-color: #ddd;
+}
+.OrderHistory>table>thead>tr>th{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

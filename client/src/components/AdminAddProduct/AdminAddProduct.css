@@ -1,0 +1,28 @@
+.product-form{
+    display: flex;
+    flex-direction: column;
+}
+.product-form>div:nth-of-type(1){
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.product-form>div:nth-of-type(1)>img{
+    border-radius: 5px;
+    width: 30%;
+    border: 1px solid #ddd;
+
+}
+.product-form>div:nth-of-type(1)>input{
+    display: none;
+
+}
+.product-form>div:nth-of-type(4){
+    display: flex;
+    gap: .3rem;
+}
+.product-form>div:nth-of-type(5){
+    display:flex;
+    gap:.5rem;
+}
